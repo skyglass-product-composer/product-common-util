@@ -7,19 +7,19 @@
 
     <groupId>se.magnus.microservices.util</groupId>
     <artifactId>product-common-util</artifactId>
-    <version>0.1</version>
+    <version>0.2</version>
     
     <properties>
         <springBootVersion>2.5.2</springBootVersion>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     
     <dependencies>
         <dependency>
             <groupId>se.magnus.microservices.api</groupId>
             <artifactId>product-common-api</artifactId>
-            <version>0.1</version>
+            <version>0.2</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
